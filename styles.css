@@ -1,0 +1,26 @@
+h1{
+    color:green
+  }
+button{  
+    background-color: rgb(255, 255, 0);
+}
+button:hover{
+    background-color: aqua;
+}    
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    padding: 4px;
+    text-align:left;
+}
+th{
+    background-color: red;
+}
+tr:nth-child(even){
+    background-color: rgb(8, 0, 255);
+}
+tr:nth-child(3n){
+    background-color: #ff8800;
+}
